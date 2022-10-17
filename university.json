@@ -1,0 +1,658 @@
+const university = [
+    {
+        id: 1,
+        name: "Necmettin Erbakan Üniversitesi",
+        faculty: [
+            {
+                id: 1,
+                name: "Ahmet Keleşoğlu Eğitim Fakültesi",
+                episode: [
+                    {
+                        
+                        id: 1,
+
+                        name: "Bilgisayar ve Öğretim Teknolojileri Eğitimi Bölümü",
+                    },
+                    {
+                        id: 2,
+                        name: "Eğitim Bilimleri Bölümü"
+                    },
+                    {
+                        id: 3,
+                        name: "Güzel Sanatlar Eğitimi Bölümü"
+                    },
+                    {
+                        id: 4,
+                        name: "Temel Eğitim Bölümü"
+                    },
+                    {
+                        id: 5,
+                        name:"Yabancı Diller Eğitimi Bölümü"
+                        
+                    },
+                ]
+            },
+            {
+                id: 2,
+                name: "Mühendislik ve Mimarlık Fakültesi",
+                episode: [
+                    {
+                        id: 1,
+                        name: "Bilgisayar Mühendisliği Bölümü"
+                    },
+                    {
+                        id: 2,
+                        name: "Elektrik ve Elektronik Mühendisliği Bölümü"
+                    },
+                    {
+                        id: 3,
+                        name: "Makine Mühendisliği Bölümü"
+                    },
+                    {
+                        id: 4,
+                        name: "Adli Bilişim Mühendisliği Bölümü"
+                    },
+                    {
+                        id: 5,
+                        name:"Enerji Sistemleri Mühendisliği Bölümü"
+                        
+                    },
+                ]
+            },
+            {
+                id: 3,
+                name: "Seydişehir Ahmet Cengiz Mühendislik Fakültesi",
+                episode: [
+                    {
+                        id: 1,
+                        name: "Bilgisayar Mühendisliği Bölümü"
+                    },
+                    {
+                        id: 2,
+                        name: "Elektrik ve Elektronik Mühendisliği Bölümü"
+                    },
+                    {
+                        id: 3,
+                        name: "Maden Mühendisliği Bölümü "
+                    },
+                    {
+                        id: 4,
+                        name: "Makine Mühendisliği Bölümü"
+                    },
+                    {
+                        id: 5,
+                        name:"Metalurji ve Malzeme Mühendisliği Bölümü"
+
+                        
+                    },
+                ]
+            },
+            {
+                id: 4,
+                name: "Uygulamalı Bilimler Fakültesi",
+                episode: [
+                    {
+                        id: 1,
+                        name: "Finans ve Bankacılık Bölümü"
+                    },
+                    {
+                        id: 2,
+                        name: "Lojistik Yönetimi Bölümü"
+                    },
+                    {
+                        id: 3,
+                        name: "Muhasebe ve Finans Yönetimi Bölümü "
+                    },
+                    {
+                        id: 4,
+                        name: "Ulaslararası Ticaret ve Finansman Bölümü "
+                    },
+                    {
+                        id: 5,
+                        name:"Yönetim Bilişim Sistemleri Bölümü"
+
+                        
+                    },
+                ]
+            },
+            {
+                id: 5,
+                name: "Siyasal Bilgiler Fakültesi",
+                episode: [
+                    {
+                        id: 1,
+                        name: "İktisat Bölümü"
+                    },
+                    {
+                        id: 2,
+                        name: "İşletme Bölümü"
+                    },
+                    {
+                        id: 3,
+                        name: "Maliye Bölümü "
+                    },
+                    {
+                        id: 4,
+                        name: "Siyaset Bilimi ve Kamu Yönetimi Bölümü"
+                    },
+                    {
+                        id: 5,
+                        name:"Siyaset Bilimi ve Uluslararası İlişkiler Bölümü"
+                        
+                    },
+                ]
+            }
+        ]
+    },
+    {
+        id: 2,
+        name: "Selçuk Üniversitesi",
+        faculty: [
+            {
+                id: 1,
+                name: "Teknoloji Fakültesi",
+                episode: [
+                    {
+                        
+                        id: 1,
+                        
+                        name: "Bilgisayar Mühendisliği Bölümü",
+                    },
+                    {
+                        id: 2,
+                        name: "Makine Mühendisliği Bölümü"
+                    },
+                    {
+                        id: 3,
+                        name: "Mekatronik Mühendisliği Bölümü"
+                    },
+                    {
+                        id: 4,
+                        name: "Elektrik Elektrik Mühendisliği Bölümü"
+                    },
+                    {
+                        id: 5,
+                        name:"Bilgisayar Mühendisiği (M.T.O.K) Bölümü"
+                        
+                    },
+                ]
+            },
+            {
+                id: 2,
+                name: "Akşehir Mühendislik ve Mimarlık Fakültesi",
+                episode: [
+                    {
+                        id: 1,
+                        name: "Bilgisayar Mühendisliği Bölümü"
+                    },
+                    {
+                        id: 2,
+                        name: "Elektrik ve Elektronik Mühendisliği Bölümü"
+                    },
+                    {
+                        id: 3,
+                        name: "Makine Mühendisliği Bölümü"
+                    },
+                    {
+                        id: 4,
+                        name: "Adli Bilişim Mühendisliği Bölümü"
+                    },
+                    {
+                        id: 5,
+                        name:"Enerji Sistemleri Mühendisliği Bölümü"    
+                        
+                    },
+                ]
+            },
+            {
+                id: 3,
+                name: "Mimarlık ve Tasarım Fakültesi",
+                episode: [
+                    {
+                        id: 1,
+                        name: "Ayakkabı Tasarım ve Üretim Bölümü"
+                    },
+                    {
+                        id: 2,
+                        name: "Moda Tasarımı Bölümü "
+                    },
+                    {
+                        id: 3,
+                        name: "Peyzaj Mimarlığı Bölümü "
+                    },
+                    {
+                        id: 4,
+                        name: "El Sanatları Bölümü"
+                    },
+                    {
+                        id: 5,
+                        name:"İç Mimarlık Bölümü"
+                        
+                    },
+                ]
+            },
+            {
+                id: 4,
+                name: "İletişim Fakültesi",
+                episode: [
+                    {
+                        id: 1,
+                        name: "Radyo ve Televizyon Bölümü"
+                    },
+                    {
+                        id: 2,
+                        name: "Reklamcılık Bölümü"
+                    },
+                    {
+                        id: 3,
+                        name: "Gazetecilik Bölümü "
+                    },
+                    {
+                        id: 4,
+                        name: "Halkla İlişkiler Tanıtım Bölümü "
+                    },
+                    {
+                        id: 5,
+                        name:"Gazetecilik (İÖ) Bölümü"
+                        
+                    },
+                ]
+            },
+            {
+                id: 5,
+                name: "İktisadi ve İdari Bilimler Fakültesi",
+                episode: [
+                    {
+                        id: 1,
+                        name: "İşletme Bölümü"
+                    },
+                    {
+                        id: 2,
+                        name: "Siyaset Bilimi ve Kamu Yönetimi Bölümü"
+                    },
+                    {
+                        id: 3,
+                        name: "İktisat Bölümü "
+                    },
+                    {
+                        id: 4,
+                        name: "Uluslararsı İlişkiler Bölümü"
+                    },
+                    {
+                        id: 5,
+                        name:"Uluslarası Ticaret ve Finansman  Bölümü"
+                        
+                    },
+                ]
+            }
+        ]
+    },
+    {
+        id: 3,
+        name: "Konya Teknik Üniversitesi",
+        faculty: [
+            {
+                id: 1,
+                name: "Mühendislik ve Doğa Bilimleri Fakültesi",
+                episode: [
+                    {
+                        
+                        id: 1,
+                        
+                        name: "Bilgisayar Mühendisliği Bölümü",
+                    },
+                    {
+                        id: 2,
+                        name: "Makine Mühendisliği Bölümü"
+                    },
+                    {
+                        id: 3,
+                        name: "Endüstri Mühendisliği Bölümü"
+                    },
+                    {
+                        id: 4,
+                        name: "Çevre Mühendisliği Bölümü"
+                    },
+                    {
+                        id: 5,
+                        name:"Elektrik Elektronik Mühendisliği Bölümü"
+                        
+                    },
+                ]
+            },
+            {
+                id: 2,
+                name: "Mimarlık ve Tasarım Fakültesi",
+                episode: [
+                    {
+                        id: 1,
+                        name: "Mimarlık Bölümü"
+                    },
+                    {
+                        id: 2,
+                        name: "Şehir ve Bölge Planlama Bölümü"
+                    },
+                    {
+                        id: 3,
+                        name: "İç Mimarlık Bölümü"
+                    },
+                    {
+                        id: 4,
+                        name: "Endüstri Ürünleri Tasarımı Bölümü"
+                    },
+                    {
+                        id: 5,
+                        name:"Mimarlık Bölümü"
+                        
+                    },
+                ]
+            },
+            {
+                id: 3,
+                name: "Teknik Bilimler Meslek Yüksek Okulu",
+                episode: [
+                    {
+                        id: 1,
+                        name: "Bilgisayar Teknolojileri Bölümü"
+                    },
+                    {
+                        id: 2,
+                        name: "Elektrik ve Enerji Bölümü"
+                    },
+                    {
+                        id: 3,
+                        name: "Elektronik ve Otomasyon Bölümü "
+                    },
+                    {
+                        id: 4,
+                        name: "Görsel,İşitsel Teknikler ve Medya Yapımcılığı Bölümü"
+                    },
+                    {
+                        id: 5,
+                        name:"Makine ve Metal Teknolojileri Bölümü"
+                        
+                    },
+                ]
+            },
+            {
+                id: 4,
+                name: "Uygulamalı Bilimler Fakültesi",
+                episode: [
+                    {
+                        id: 1,
+                        name: "Finans ve Bankacılık Bölümü"
+                    },
+                    {
+                        id: 2,
+                        name: "Lojistik Yönetimi Bölümü"
+                    },
+                    {
+                        id: 3,
+                        name: "Muhasebe ve Finans Yönetimi Bölümü "
+                    },
+                    {
+                        id: 4,
+                        name: "Ulaslararası Ticaret ve Finansman Bölümü "
+                    },
+                    {
+                        id: 5,
+                        name:"Yönetim Bilişim Sistemleri Bölümü"
+                        
+                    },
+                ]
+            },
+            {
+                id: 5,
+                name: "Siyasal Bilgiler Fakültesi",
+                episode: [
+                    {
+                        id: 1,
+                        name: "İktisat Bölümü"
+                    },
+                    {
+                        id: 2,
+                        name: "İşletme Bölümü"
+                    },
+                    {
+                        id: 3,
+                        name: "Maliye Bölümü "
+                    },
+                    {
+                        id: 4,
+                        name: "Siyaset Bilimi ve Kamu Yönetimi Bölümü"
+                    },
+                    {
+                        id: 5,
+                        name:"Siyaset Bilimi ve Uluslararası İlişkiler Bölümü"
+                        
+                    },
+                ]
+            }
+        ]
+    },
+    {
+        id: 4,
+        name: "KTO Karatay Üniversitesi",
+        faculty: [
+            {
+                id: 1,
+                name: "Mühendislik ve Doğa Bilimleri Fakültesi",
+                episode: [
+                    {
+                        
+                        id: 1,
+                        
+                        name: "Bilgisayar Mühendisliği Bölümü",
+                    },
+                    {
+                        id: 2,
+                        name: "Makine Mühendisliği Bölümü"
+                    },
+                    {
+                        id: 3,
+                        name: "Endüstri Mühendisliği Bölümü"
+                    },
+                    {
+                        id: 4,
+                        name: "Çevre Mühendisliği Bölümü"
+                    },
+                    {
+                        id: 5,
+                        name:"Elektrik Elektronik Mühendisliği Bölümü"
+                        
+                    },
+                ]
+            },
+            {
+                id: 2,
+                name: "Hukuk Fakültesi",
+                episode: [
+                    {
+                        id: 1,
+                        name: "Bilgisayar Mühendisliği Bölümü"
+                    },
+                    {
+                        id: 2,
+                        name: "Elektrik ve Elektronik Mühendisliği Bölümü"
+                    },
+                    {
+                        id: 3,
+                        name: "Makine Mühendisliği Bölümü"
+                    },
+                    {
+                        id: 4,
+                        name: "Adli Bilişim Mühendisliği Bölümü"
+                    },
+                    {
+                        id: 5,
+                        name:"Enerji Sistemleri Mühendisliği Bölümü"
+                        
+                    },
+                ]
+            },
+            {
+                id: 3,
+                name: "Sosyal ve Beşeri İlimler Fakültesi",
+                episode: [
+                    {
+                        id: 1,
+                        name: "Piskoloji Bölümü"
+                    },
+                    {
+                        id: 2,
+                        name: "Tarih Bölümü"
+                    },
+                    {
+                        id: 3,
+                        name: "Sosyoloji Bölümü "
+                    },
+                    {
+                        id: 4,
+                        name: "İletişim ve Tasarımı Bölümü"
+                    },
+                    {
+                        id: 5,
+                        name:"Sosyal Hizmetler Bölümü"
+                        
+                    },
+                ]
+            },
+            {
+                id: 4,
+                name: "Güzel Sanatlar ve Tasarım Fakültesi ",
+                episode: [
+                    {
+                        id: 1,
+                        name: "İç Mimarlık Bölümü"
+                    },
+                    {
+                        id: 2,
+                        name: "Mimarlık Bölümü"
+                    },
+                    {
+                        id: 3,
+                        name: "Grafik Tasarımı Bölümü "
+                    },
+                    {
+                        id: 4,
+                        name: "Geleneksel Türk Sanatları Bölümü "
+                    },
+                    {
+                        id: 5,
+                        name:"Resim Bölümü"
+                        
+                    },
+                ]
+            },
+            {
+                id: 5,
+                name: "Tıp Fakültesi",
+                episode: [
+                    {
+                        id: 1,
+                        name: "İktisat Bölümü"
+                    },
+                    {
+                        id: 2,
+                        name: "İşletme Bölümü"
+                    },
+                    {
+                        id: 3,
+                        name: "Maliye Bölümü "
+                    },
+                    {
+                        id: 4,
+                        name: "Siyaset Bilimi ve Kamu Yönetimi Bölümü"
+                    },
+                    {
+                        id: 5,
+                        name:"Siyaset Bilimi ve Uluslararası İlişkiler Bölümü"
+                        
+                    },
+                ]
+            }
+        ]
+    },
+    {
+        id: 5,
+        name: "Konya Gıda ve Tarım Üniversitesi",
+        faculty: [
+            {
+                id: 1,
+                name: "Mühendislik ve Mimarlık Fakültesi ",
+                episode: [
+                    {
+                        
+                        id: 1,
+                        
+                        name: "Bilgisayar Mühendisliği Bölümü",
+                    },
+                    {
+                        id: 2,
+                        name: "Biyomühendislik Bölümü"
+                    },
+                    {
+                        id: 3,
+                        name: "Endüstri Mühendisliği Bölümü"
+                    },
+                    {
+                        id: 4,
+                        name: "İç Mimarlık Bölümü"
+                    },
+                    {
+                        id: 5,
+                        name:"elektrik Elektronik Mühendisliği Bölümü"
+                        
+                    },
+                ]
+            },
+            {
+                id: 2,
+                name: "Sosyal ve Beşeri Bilimler Fakültesi",
+                episode: [
+                    {
+                        id: 1,
+                        name: "İktisadi ve İdari Programlar Bölümü"
+                    },
+                    {
+                        id: 2,
+                        name: "Ekonomi Bölümü"
+                    },
+                    {
+                        id: 3,
+                        name: "Piskoloji Bölümü"
+                    },
+                    {
+                        id: 4,
+                        name: "Uluslar Arası Ticaret ve İşletmecilik Bölümü"
+                    },
+                    {
+                        id: 5,
+                        name:"Yönetim Bilişim Sistemleri Bölümü"
+                        
+                    },
+                ]
+            },
+            {
+                id: 3,
+                name: "Tarım ve Doğa Bilimleri Fakültesi",
+                episode: [
+                    {
+                        id: 1,
+                        name: "Genetik ve Yaşam Bilimleri  Bölümü"
+                    },
+                    {
+                        id: 2,
+                        name: "Bitkisel Üretim ve Teknolojiler Bölümü"
+                    },
+                    {
+                        id: 3,
+                        name: "Moleküler Biyoloji ve Genetik Bölümü "
+                    },
+                ]
+            },
+        ]
+    }
+]
+
+export default university;
